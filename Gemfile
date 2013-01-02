@@ -41,7 +41,8 @@ gem 'jquery-rails'
 
 gem 'blacklight'
 gem 'hydra-head'
-gem 'sufia', '0.0.1'
+gem 'sufia', '0.0.2'
+#gem 'sufia', github: 'mediashelf/sufia'
 #gem 'sufia', :path=>'../sufia'
 
 group :development, :test do
