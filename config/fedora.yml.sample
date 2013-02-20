@@ -1,7 +1,12 @@
 development:
   user: fedoraAdmin
   password: fedoraAdmin
-  url: http://127.0.0.1:8983/fedora
+  url: http://127.0.0.1:9999/rest/
+  #url: http://127.0.0.1:8080/fedora/
+fedora:
+  user: fedoraAdmin
+  password: fedoraAdmin
+  url: http://127.0.0.1:8080/fedora/
 test: &TEST  
   user: fedoraAdmin
   password: fedoraAdmin

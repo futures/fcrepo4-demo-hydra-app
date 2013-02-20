@@ -1,10 +1,11 @@
 en:
+  application_name: "Modeshape"
   sufia:
-    product_name: "the WGBH Repository"
+    product_name: "the Modeshape Repository"
     account_name: "Account Id"
-    institution_name: "WGBH"
-    deposit_agreement:  "WGBH's Deposit Agreement"
+    institution_name: "Fedora Futures"
+    deposit_agreement:  "Deposit Agreement"
     directory:
-      suffix:           '@wgbh.org'
+      suffix:           '@fcrepo.org'
 
     
