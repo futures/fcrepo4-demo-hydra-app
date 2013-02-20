@@ -24,6 +24,11 @@ gem 'sufia', github: 'curationexperts/sufia', ref: '047f883'
 #gem 'hydra-head', github: 'projecthydra/hydra-head', ref: '424152f'
 #gem 'hydra-head', '6.0.0.pre6'
 gem 'hydra-head'
+gem 'rubydora', :git => 'git://github.com/cbeer/rubydora.git', :branch => 'fcrepo4.x'
+#gem 'sufia', path: '../sufia'
+#gem 'sufia', github: 'curationexperts/sufia', ref: '0c79e6c'
+#gem 'active-fedora', path: '../active_fedora'
+#gem 'solrizer', path: '../solrizer'
 
 gem 'rails_admin'
 

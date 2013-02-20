@@ -27,6 +27,20 @@ GIT
       sitemap (= 0.3.2)
       yaml_db (= 0.2.3)
       zipruby (= 0.3.6)
+  remote: git://github.com/cbeer/rubydora.git
+  revision: c30ffe9d8e309baba11328907b210220bea7b77f
+  branch: fcrepo4.x
+  specs:
+    rubydora (1.4.0)
+      activemodel
+      activesupport
+      deprecation
+      equivalent-xml
+      fastercsv
+      hooks
+      mime-types
+      nokogiri
+      rest-client
 
 GEM
   remote: https://rubygems.org/
@@ -309,6 +323,7 @@ GEM
       rspec-core (~> 2.12.0)
       rspec-expectations (~> 2.12.0)
       rspec-mocks (~> 2.12.0)
+<<<<<<< HEAD
     rubydora (1.4.0)
       activemodel
       activesupport
@@ -319,6 +334,10 @@ GEM
       mime-types
       nokogiri
       rest-client
+=======
+    sanitize (2.0.3)
+      nokogiri (>= 1.4.4, < 1.6)
+>>>>>>> point at our branch of rubydora
     sass (3.2.5)
     sass-rails (3.2.6)
       railties (~> 3.2.0)
@@ -382,6 +401,7 @@ DEPENDENCIES
   rails (= 3.2.12)
   rails_admin
   rspec-rails
+  rubydora!
   sass-rails (~> 3.2.3)
   sqlite3
   sufia!
